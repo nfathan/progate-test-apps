@@ -1,0 +1,235 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+
+/*default*/
+.container1 {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 12px ;
+}
+
+.mt-3{
+  margin-top: 3px;
+}
+
+.mt-17{
+  margin-top: 17px;
+}
+
+.mt-60{
+  margin-top: 60px;
+}
+
+.mt-180{
+  margin-top: 180px;
+}
+
+.pt-180 {
+  padding-top: 180px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+/*header*/
+.navbar {
+  position: fixed;
+  z-index:1;
+  width: 100%;
+  color: white;
+  background: rgba(34, 49, 52, 0.9);
+  height: 65px;
+}
+
+.navbar-brand img {
+  width: 124px;
+  float: left;
+  margin: 20px 0;
+}
+
+.navbar-login a {
+  color: white;
+  background: rgba(255, 255, 255, 0.3);
+  height: 65px;
+  line-height: 65px;
+  float: right;
+  padding: 0 25px;
+}
+
+.navbar-login a:hover{
+  background: rgba(255, 255, 255, 0.6);
+  transition: 0.5s;
+}
+
+
+/*content*/
+.top {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+}
+
+.top h1 {
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.top p {
+  text-align: center;
+  color: white;
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin-top: 17px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  padding: 12px 24px;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.daftar {
+  background: #239b76;
+}
+
+.fbook {
+  background: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background: #55acee;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.pelajaran {
+  height: 530px;
+  padding-top: 60px;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.pelajaran h2 {
+  color: #5f5d60;
+  font-weight: 500;
+}
+
+.section {
+  position: inline;
+  margin-top: 30px;
+}
+
+.box {
+  position: relative;
+  float: left;
+  width: 25%;
+}
+
+.box h6 {
+  font-size: 15px;
+  font-weight: 500;
+  position: absolute;
+  top: 90px;
+  color: white;
+}
+
+.box p {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  color: #b3aeb5;
+  width: 80%;
+}
+
+.pesan {
+  margin-top: 60px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.pesan h2, h3 {
+  color: #5f5d60;
+  font-weight: 500;
+}
+
+.btn-green {
+  margin-top: 30px;
+}
+
+.btn-green a {
+  display: inline-block;
+  color: white;
+  background: #5dca88;
+  opacity: 0.8;
+  padding: 15px 40px ;
+  border-radius: 5px;
+  box-shadow: 7px 7px #1a7940;
+}
+
+.btn-green a:hover {  
+  opacity: 0.9;
+}
+
+/*footer*/
+.footer {
+  border-top: solid 1px #eee;
+}
+
+/*.footer-brand img, p {*/
+/*  display: block;*/
+/*}*/
+
+.footer-brand{
+  padding-top: 30px;
+  float: left;
+}
+
+.footer-brand img{
+  width: 124px;
+}
+
+.footer-brand p {
+  font-size: 12px;
+  color: #b3aeb5;
+}
