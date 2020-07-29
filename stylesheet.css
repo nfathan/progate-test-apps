@@ -1,4 +1,9 @@
-/* Reset CSS (JANGAN DIHAPUS) */
+/* Mulai code Anda dari baris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -10,226 +15,199 @@ body {
   font-family: "Lucida Grande";
 }
 
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
 }
 
-/* Ketik code Anda dibawah */
-
-/*default*/
-.container1 {
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 12px ;
+.clear {
+  clear: left;
 }
 
-.mt-3{
-  margin-top: 3px;
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.mt-17{
-  margin-top: 17px;
-}
-
-.mt-60{
-  margin-top: 60px;
-}
-
-.mt-180{
-  margin-top: 180px;
-}
-
-.pt-180 {
-  padding-top: 180px;
-}
-
-.pb-100 {
-  padding-bottom: 100px;
-}
-
-/*header*/
-.navbar {
-  position: fixed;
-  z-index:1;
-  width: 100%;
-  color: white;
-  background: rgba(34, 49, 52, 0.9);
-  height: 65px;
-}
-
-.navbar-brand img {
-  width: 124px;
-  float: left;
-  margin: 20px 0;
-}
-
-.navbar-login a {
-  color: white;
-  background: rgba(255, 255, 255, 0.3);
-  height: 65px;
-  line-height: 65px;
-  float: right;
-  padding: 0 25px;
-}
-
-.navbar-login a:hover{
-  background: rgba(255, 255, 255, 0.6);
-  transition: 0.5s;
-}
-
-
-/*content*/
-.top {
+.top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
   background-size: cover;
+  color: white;
+  text-align: center;
 }
 
-.top h1 {
-  font-size: 45px;
-  text-align: center;
-  letter-spacing: 5px;
-  color: white;
+.top-wrapper h1 {
   opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
   margin-bottom: 10px;
 }
 
-.top p {
-  text-align: center;
-  color: white;
+.top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
 }
 
 .btn-wrapper {
-  margin-top: 17px;
-  margin-bottom: 20px;
   text-align: center;
+  margin: 20px 0;
 }
 
 .btn-wrapper p {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
-.btn {
-  display: inline-block;
-  color: white;
-  padding: 12px 24px;
-  opacity: 0.8;
-  border-radius: 5px;
+.signup {
+  background-color: #239b76;
 }
 
-.daftar {
-  background: #239b76;
-}
-
-.fbook {
-  background: #3b5998;
+.facebook {
+  background-color: #3b5998;
   margin-right: 10px;
 }
 
 .twitter {
-  background: #55acee;
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
 }
 
 .fa {
   margin-right: 5px;
 }
 
-.pelajaran {
-  height: 530px;
-  padding-top: 60px;
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
   text-align: center;
-  background: #f7f7f7;
 }
 
-.pelajaran h2 {
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
   color: #5f5d60;
-  font-weight: 500;
 }
 
-.section {
-  position: inline;
-  margin-top: 30px;
+.heading h2 {
+  font-weight: normal;
 }
 
-.box {
-  position: relative;
+.lesson {
   float: left;
   width: 25%;
 }
 
-.box h6 {
-  font-size: 15px;
-  font-weight: 500;
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
   position: absolute;
-  top: 90px;
+  top: 44%;
+  width: 100%;
   color: white;
 }
 
-.box p {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
-  width: 80%;
 }
 
-.pesan {
-  margin-top: 60px;
-  margin-bottom: 80px;
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
   text-align: center;
 }
 
-.pesan h2, h3 {
-  color: #5f5d60;
-  font-weight: 500;
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
 }
 
-.btn-green {
-  margin-top: 30px;
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
-.btn-green a {
-  display: inline-block;
-  color: white;
-  background: #5dca88;
-  opacity: 0.8;
-  padding: 15px 40px ;
-  border-radius: 5px;
-  box-shadow: 7px 7px #1a7940;
+footer img {
+  width: 125px;
 }
 
-.btn-green a:hover {  
-  opacity: 0.9;
-}
-
-/*footer*/
-.footer {
-  border-top: solid 1px #eee;
-}
-
-/*.footer-brand img, p {*/
-/*  display: block;*/
-/*}*/
-
-.footer-brand{
-  padding-top: 30px;
-  float: left;
-}
-
-.footer-brand img{
-  width: 124px;
-}
-
-.footer-brand p {
-  font-size: 12px;
+footer p {
   color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Ketik code Anda dibawah */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
